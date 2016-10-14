@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Chapter1
-
 ---
 
 # First Chapter
