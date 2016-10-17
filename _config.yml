@@ -19,36 +19,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/Analyzing-Big-Data-with-Microsoft-R-Server" # the subpath of your site, e.g. /blog
+baseurl: "/analyzing-big-data-with-microsoft-r-server" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: j0ns4n21
 github_username:  jonsan21
 repository: jonsan21/analyzing-big-data-with-microsoft-r-server
 
 # Build settings
-# markdown: kramdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-    
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-  
-# theme: minima
+markdown: kramdown
+theme: minima
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  
-  
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
