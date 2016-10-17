@@ -1,3 +1,8 @@
+---
+layout: page
+title: Exercises
+
+---
 # Exercises
 
 We learned how to use the `rxSummary` function to summarize the data. If we pass the formula `~ .` to `rxSummary`, we get a summary of all the column in the data. This summary consists of counts for `factor` columns and numeric summaries for `numeric` and `integer` columns (`character` columns are ignored).
