@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: Installing the Microsoft R Client
 ---
 

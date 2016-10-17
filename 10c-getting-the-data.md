@@ -1,3 +1,8 @@
+---
+layout: page2
+title: The DATA
+
+---
 # The NYC Taxi data
 
 To see how we can use MRS to process and analyze a large dataset, we use the [NYC Taxi dataset](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml). The raw datasets span over multiple years and consists of a set of 12 CSV files for each month of the year.  Each record (row) in the file shows a Taxi trip in New York City, with the following important attributes (columns) recorded: 

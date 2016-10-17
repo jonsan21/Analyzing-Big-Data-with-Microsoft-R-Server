@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: Overview of RevoScaleR
 ---
 # Overview of `RevoScaleR`

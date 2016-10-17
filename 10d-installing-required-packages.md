@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page2
 title: Loading Packages
 
 ---
