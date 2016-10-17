@@ -1,9 +1,3 @@
----
-layout: page
-title: Overview of RevoScaleR
-
----
-
 # Overview of `RevoScaleR`
 
 **R** is a very popular programming language whose rich set of features and packages make it ideal for data analysis and modeling. Traditionally, R works by loading every object (including datasets) as a memory object.  This means that large data sets can quickly surpass the amount of available space in the memory. This is especially problematic when many users are working on the same R server, where free memory can quickly turn into a scarce resource. Over time, many R packages have surfaced attempting to address this limitation. Some propose a way to more efficiently load and process the data, which would in turn make it possible to work with larger data sizes. However, this approach can only take us so far, since efficiency eventually hits a wall. Being efficient in R also requires more sophisticated knowledge about programming that many R users lack. 
