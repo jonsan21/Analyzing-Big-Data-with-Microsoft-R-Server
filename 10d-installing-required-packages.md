@@ -1,3 +1,8 @@
+---
+layout: default
+title: Loading Packages
+
+---
 # Loading Packages
 
 At various points throughout the analysis, we will be using to a set a third-party packages. So let's begin by loading those packages. The `RevoScaleR` package is pre-installed with Microsoft R Server (MRS), since it cannot be downloaded from CRAN, but all the other packages shown below are third-party packages that can be downloaded and installed from CRAN using the `install.packages` command.
