@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/Analyzing-Big-Data-with-Microsoft-R-Server" # the subpath of your site, e.g. /blog
-url:  # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: j0ns4n21
 github_username:  jonsan21
 repository: jonsan21/analyzing-big-data-with-microsoft-r-server
