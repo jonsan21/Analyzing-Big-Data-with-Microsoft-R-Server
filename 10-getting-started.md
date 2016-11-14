@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Getting Started
-
+title: Overview of RevoScaleR
 ---
 # Getting started
 

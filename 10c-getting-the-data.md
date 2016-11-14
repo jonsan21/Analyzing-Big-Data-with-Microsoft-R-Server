@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Getting the Data
-
+title: Overview of RevoScaleR
 ---
 # The NYC Taxi data
 

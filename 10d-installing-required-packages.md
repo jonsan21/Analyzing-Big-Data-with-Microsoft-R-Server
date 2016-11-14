@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Loading Packages
-
+title: Overview of RevoScaleR
 ---
 # Loading Packages
 
