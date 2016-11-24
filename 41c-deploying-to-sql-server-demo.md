@@ -111,6 +111,4 @@ While the above code does work, there is something very important missing from i
 
 All the above is usually handled by the SQL Server admin, not individual users. But in order to run in-database analytics, the R user has to do one thing from the R client machine, and that is to set the **compute context** to be the remote SQL/R server.
 
-```R
 
-```
