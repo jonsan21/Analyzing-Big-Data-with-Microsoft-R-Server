@@ -39,12 +39,12 @@ Number of valid observations: 43118543
 
 Another metric worth looking at is a correlation matrix. This can help us determine to what extent the predictions from the different models are close to each other, and to what extent each is close to the actual or observed tip percent.
 
- ```R
+```R
 rxc <- rxCor( ~ tip_percent + tip_percent_pred_linmod + tip_percent_pred_dtree + tip_percent_pred_dforest, data = mht_split$test)
 print(rxc)
 ```
  
- ```Rout
+```Rout
                           tip_percent pred_linmod pred_dtree pred_dforest
 tip_percent               1.0000000   0.1391751   0.1500126  0.1499031
 tip_percent_pred_linmod   0.1391751   1.0000000   0.8580617  0.9084119
