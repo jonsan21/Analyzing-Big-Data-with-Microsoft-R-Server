@@ -35,7 +35,7 @@ Number of valid observations: 43118543
  SE_linmod  82.66458 108.9904 0.00000000005739206 9034.665 43118542 1         
  SE_dtree   82.40040 109.1038 0.00000251589457986 8940.693 43118542 1         
  SE_dforest 82.47107 108.0416 0.00000000001590368 8606.201 43118542 1        
- ```
+```
 
 Another metric worth looking at is a correlation matrix. This can help us determine to what extent the predictions from the different models are close to each other, and to what extent each is close to the actual or observed tip percent.
 
