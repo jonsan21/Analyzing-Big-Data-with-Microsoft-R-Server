@@ -1,3 +1,7 @@
+---
+layout: page
+title: Overview of RevoScaleR
+---
 # Deploying to SQL Server (demo)
 
 Let's point to a SQL table containing a copy of the NYC Taxi dataset. The first thing we need to do is set up a SQL Server *connection string*, which contains our SQL login credentials. Since the connection string contains sensitive information, it is usually stored in a file in a restricted location and read from R, but in our example we will simply hard-code the connection string and store it in `sqlConnString`. Assume, the NYC Taxi dataset is stored in a table called `NYCTaxiBig` inside the `RDB` database that the connection string points to. The last thing left for us to do is to point to the table, which we do with the `RxSqlServerData` function. This is the equivalent of `RxXdfData` when pointing to an XDF file stored on disk.

@@ -1,3 +1,7 @@
+---
+layout: page
+title: Overview of RevoScaleR
+---
 # Deploying and scaling
 
 Once a model is built, we're usually interested in using it to make predictions on future data, a process sometimes referred to as **scoring**. This is not very different from how we used the model in the last section to make predictions on the test data using the `rxPredict` function. But future data may be sitting in a different environment from the one used to develop the model. 
