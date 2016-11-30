@@ -1,32 +1,25 @@
-# Course Introduction
+# Analyzing Big Data with Microsoft R Server
 
-*Introduction to Microsoft R Server* is designed to help R users learn to process, query, transform, summarize, build models on large datasets and deploy them, all using Microsoft R Server's `RevoScaleR` package. This course takes a **use-case-based approach** by walking through a knowledge discovery and data mining example using MRS.
+The open-source programming language R has for a long time been popular (particularly in academia) for data processing and statistical analysis. Among R's strengths are that it's a succinct programming language and has an extensive repository of third party libraries for performing all kinds of analyses. Together, these two features make it possible for a data scientist to very quickly go from raw data to summaries, charts, and even full-blown reports. However, one deficiency with R is that traditionally it uses a lot of memory, both because it needs to load a copy of the data in its entirety as a data.frame object, and also because processing the data often involves making further copies (sometimes referred to as copy-on-modify). This is one of the reasons R has been more reluctantly received by industry compared to academia.
+
+The main component of Microsoft R Server (MRS) is the RevoScaleR package, which is an R library that offers a set of functionalities for processing large datasets without having to load them all at once in the memory. RevoScaleR offers a rich set of distributed statistical and machine learning algorithms, which get added to over time. Finally, RevoScaleR also offers a mechanism by which we can take code that we developed on our laptop and deploy it on a remote server such as SQL Server or Spark (where the infrastructure is very different under the hood), with minimal effort.
+
+In this course, we will show you how to use MRS to run an analysis on a large dataset and provide some examples of how to deploy it on a Spark cluster or a SQL Server database. Upon completion, you will know how to use R for big-data problems.
 
 ### Pre-requisites
 
-Ideally, this course is for intermediate or advanced R users who have a solid grounding in using R for data and statistical analysis. For example, familiarity with the following topics is assumed:
-  - basic data types, such as knowing why a `data.frame` a kind of `list`, how to drill down a nested `list` or use `lapply` to loop through a `list`,
-  - writing functions, especially **vectorized** transformation functions,
-  - know how to work with `factor` columns (such as adding, subtracting or reordering factor levels and what we gain by doing so),
-  - summarizing and visualizing data using `dplyr` and `ggplot2`,
-  - basics of modeling and machine learning, such as why we divide data into training and testing sets and how to we evaluate models, or why certain algorithms such as k-means require us to standardize the data, and so on.
+Since RevoScaleR is an R package, we assume that the course participants are familiar with R. A solid understanding of R data structures (vectors, matrices, lists, data frames, environments) is required. For example, students should be able to confidently tell the difference between a list and a data frame, or what each object is generally a good representation for and how to subset it. Students should be familiar with basic programming concepts such as control flows, loops, functions and scope. Students should have a good understanding of how to write and debug R functions. Finally, students are expected to have a good understanding of data manipulation and data processing in R (e.g. functions such as merge, transform, subset, cbind, rbind, lapply, apply). Familiarity with 3rd party packages such as dplyr is also helpful.
 
-This course was written for users who come from a business analyst background, such as R, SAS, SPSS or other business analysts who are familiar with computer science and programming concepts, but are not necessarily experts in computer programming or distributed computing, and still want to learn how to use R for running analyses on big datasets and in the future be able to deploy their analytics workflow in a production environment such as Hadoop, Spark or SQL Server.
+The following courses will help you to meet the pre-requisites:
 
-### Learning objective
+- [DAT204x: Introduction to R for Data Science](https://www.edx.org/course/introduction-r-data-science-microsoft-dat204x-2)
+- [DAT209x: Programming in R for Data Science](https://www.edx.org/course/programming-r-data-science-microsoft-dat209x-1)
 
-After completing this course, participants will be able to use R and Microsoft R Server's `RevoScaleR` library in order to: 
+### What you'll learn
 
-  1. Read and process flat files (CSV) efficiently
-  2. Clean and prepare data for analysis
-  3. Write complex transformations to add new features to the data
-  4. Visualize, explore, and summarize data
-  5. Build analytical models on large datasets and compare them
-  6. Learn about the pros and cons of a few machine learning algorithms
-  7. Score new data with a model
+You will learn how to use MRS to read, process, and analyze large datasets including:
 
-Throughout this course, we provide enough code examples using `RevoScaleR` that the intermediate to advanced R user would learn how to integrate `RevoScaleR` into their R workflow and use it to build scalable solution for problems involving large datasets and/or distributed systems.
-
-Please let us know how we can improve our content.
-
-Created by a Microsoft Employee.
+- Read data from flat files into R’s data frame object, investigate the structure of the dataset and make corrections, and store prepared datasets for later use
+- Prepare and transform the data
+- Calculate essential summary statistics, do crosstabulation, write your own summary functions, and visualize data with the ggplot2 package
+- Build predictive models, evaluate and compare models, and generate predictions on new data
